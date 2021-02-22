@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_map"
+            android:title="Map"
+            android:icon="@drawable/map_icon"/>
+        <item
+            android:id="@+id/nav_ticket"
+            android:title="Payment"
+            android:icon="@drawable/payment"/>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Profile">
+            <menu>
+
+    <item
+        android:id="@+id/nav_users"
+        android:title="User Profile"
+        android:icon="@drawable/user_icon"/>
+    <item
+        android:id="@+id/nav_location"
+        android:title="My Location"
+        android:icon="@drawable/iconfinder_ic_location_on_48px_352521"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout"/>
+            </menu>
+        </item>
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/map"
+    tools:context=".MapsActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+   <!--<Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:onClick="getLocationDetails"
+        android:text="@string/GetLocation" />-->
+
+
+   <!-- <TextView
+        android:id="@+id/textview"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="550dp"
+        android:text="@string/location_displayed_here"/>-->
+
+    <!--<EditText
+        android:id="@+id/editTextLat"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="500dp"
+        android:hint="@string/Latitude"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextLng"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="550dp"
+        android:hint="@string/Longitude"
+        android:autofillHints="" />
+-->
